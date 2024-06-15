@@ -6,7 +6,7 @@ echo "deb http://deb.debian.org/debian/ bullseye main contrib non-free" | tee /e
 apt-get update
 
 # Installation des paquets nécessaires
-apt-get install -y wget supervisor dh-autoreconf libtool libtool-bin libasound2-dev \
+apt-get install -y wget git supervisor dh-autoreconf libtool libtool-bin libasound2-dev \
 libfftw3-dev build-essential devscripts autotools-dev fakeroot dpkg-dev debhelper \
 autotools-dev dh-make quilt ccache libsamplerate0-dev libpulse-dev libaudio-dev lame \
 libjack-jackd2-dev libasound2-dev libtwolame-dev libfaad-dev libflac-dev libshout3-dev \
