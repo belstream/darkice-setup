@@ -33,8 +33,8 @@ cd ..
 
 # Clonage de darkice et aller au commit du 14/11/2023 (pour figer la version car la release 1.4 ne fonctionne pas en aac)
 git clone https://github.com/rafael2k/darkice
-git checkout 93b8d97
 cd darkice/darkice/trunk
+git checkout 93b8d97
 
 # Configuration, compilation et installation de darkice
 ./autogen.sh
